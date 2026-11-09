@@ -28,7 +28,7 @@ const MainTab = () => {
   const [activeTab, setActiveTab] = useState<AVAILABLE_TABS>(AVAILABLE_TABS.CHARMS);
 
   return (
-    <section className="relative px-10 py-4">
+    <section className="flex-2 px-10 py-4">
       <CurrentCharms />
       <hr className="my-2 border-gray-700" />
       {activeTab === 'charms' && <CharmSelector />}

@@ -64,7 +64,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
     <LoadoutProvider>
       <html lang="en">
         <body className={`${inter.className} bg-gray-950 text-white antialiased`}>
-          <header className="fixed top-0 left-0 z-20 flex h-18 w-full items-center justify-between gap-8 border-b border-gray-700 bg-gray-900/70 pr-4 pl-8 backdrop-blur-sm">
+          <header className="fixed inset-x-0 top-0 z-20 flex h-18 w-full items-center justify-between gap-8 border-b border-gray-700 bg-gray-900/70 pr-4 pl-8 backdrop-blur-sm">
             <Image
               src="banner.png"
               alt="Banner"
@@ -84,7 +84,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           </header>
           {children}
           <footer className="border-t border-gray-700 bg-gray-900">
-            <div className="mx-auto w-7xl py-6">
+            <div className="mx-auto w-4xl py-6">
               <div className="grid grid-cols-2 gap-8">
                 <div className="flex flex-col gap-2">
                   <h3 className="text-lg font-bold">About Hollow Bench</h3>
